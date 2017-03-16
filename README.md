@@ -1,9 +1,10 @@
 <p align="center">
+
 <a href="https://github.com/update/update">
 <img height="150" width="150" src="https://raw.githubusercontent.com/update/update/master/docs/logo.png">
 </a>
-
 </p>
+
 # updater-bower [![NPM version](https://img.shields.io/npm/v/updater-bower.svg?style=flat)](https://www.npmjs.com/package/updater-bower) [![NPM monthly downloads](https://img.shields.io/npm/dm/updater-bower.svg?style=flat)](https://npmjs.org/package/updater-bower)  [![NPM total downloads](https://img.shields.io/npm/dt/updater-bower.svg?style=flat)](https://npmjs.org/package/updater-bower) [![Linux Build Status](https://img.shields.io/travis/update/updater-bower.svg?style=flat&label=Travis)](https://travis-ci.org/update/updater-bower)  [![Build Status](https://img.shields.io/travis/update/updater-bower.svg?style=flat)](https://travis-ci.org/update/updater-bower)
 
 > Update bower.json with data from package.json.
@@ -20,7 +21,7 @@ $ npm install --global update
 
 This adds the `update` command to your system path, allowing it to be run from any directory.
 
-**Install [updater-bower][]**
+**Install updater-bower**
 
 Next, install this updater with the following command:
 
