@@ -20,8 +20,8 @@ module.exports = function(app, base, env) {
    * @api public
    */
 
-  app.task('default', ['update-bower']);
-  app.task('update-bower', function() {
+  app.task('default', ['bower']);
+  app.task('bower', function() {
     var pkgFile = findPkg.sync(app.cwd);
     var pkg = JSON.parse(fs.readFileSync(pkgFile));
     var cwd = path.dirname(pkgFile);

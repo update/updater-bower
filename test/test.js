@@ -38,7 +38,7 @@ describe('updater-bower', function() {
     });
   }
 
-  beforeEach(function() {
+  beforeEach(function(cb) {
     app = update({silent: true});
     app.cwd = actual();
     app.option('dest', actual());
