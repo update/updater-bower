@@ -13,7 +13,7 @@
 
 **Install [update](https://github.com/update/update)**
 
-To use this updater, you will first need to install [update](https://github.com/update/update). If you haven't done so already, you can do that now with the following command:
+If you haven't done so already, you will need to install `update` first. You can do so now with the following command:
 
 ```sh
 $ npm install --global update
