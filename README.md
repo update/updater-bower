@@ -45,8 +45,10 @@ This will run this updater's `default` task, which uses [sync-pkg](https://githu
 
 ### Related projects
 
-* [update-contributors](https://www.npmjs.com/package/update-contributors): Update contributors property in package.json with current github contributors. | [homepage](https://github.com/doowb/update-contributors "Update contributors property in package.json with current github contributors.")
-* [update-package](https://www.npmjs.com/package/update-package): Update/lint a package.json based on a defaults. | [homepage](https://github.com/jonschlinkert/update-package "Update/lint a package.json based on a defaults.")
+* [updater-contributing](https://www.npmjs.com/package/updater-contributing): Moves CONTRIBUTING.md, ISSUE_TEMPLATE and PULL_REQUEST_TEMPLATE files to the `.github` directory (with or without `.md` extension… [more](https://github.com/update/updater-contributing) | [homepage](https://github.com/update/updater-contributing "Moves CONTRIBUTING.md, ISSUE_TEMPLATE and PULL_REQUEST_TEMPLATE files to the `.github` directory (with or without `.md` extension). Use from the command line when Update's CLI is installed globally, or use as a plugin in your own updater.")
+* [updater-contributors](https://www.npmjs.com/package/updater-contributors): Update the contributors array in package.json with the contributors returned by the GitHub API. | [homepage](https://github.com/update/updater-contributors "Update the contributors array in package.json with the contributors returned by the GitHub API.")
+* [updater-eslint](https://www.npmjs.com/package/updater-eslint): Update a `.eslintrc.json` file based on a template and preferences. This updater can be used… [more](https://github.com/update/updater-eslint) | [homepage](https://github.com/update/updater-eslint "Update a `.eslintrc.json` file based on a template and preferences. This updater can be used from the command line when installed globally, or as a plugin in other updaters.")
+* [updater-package](https://www.npmjs.com/package/updater-package): Update a package.json based on globally stored preferences. | [homepage](https://github.com/update/updater-package "Update a package.json based on globally stored preferences.")
 
 ### Contributing
 

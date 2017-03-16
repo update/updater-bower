@@ -62,10 +62,10 @@
     ],
     "related": {
       "list": [
-        "update-contributing",
-        "update-contributors",
-        "update-eslint",
-        "update-package"
+        "updater-contributing",
+        "updater-contributors",
+        "updater-eslint",
+        "updater-package"
       ]
     },
     "reflinks": [
