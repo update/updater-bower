@@ -1,7 +1,7 @@
 {
   "name": "updater-bower",
   "description": "Update bower.json with data from package.json.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/update/updater-bower",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "update/updater-bower",
@@ -23,7 +23,7 @@
   "dependencies": {
     "find-pkg": "^0.1.2",
     "is-valid-app": "^0.2.1",
-    "sync-pkg": "^0.7.0",
+    "sync-bower": "^1.0.0",
     "through2": "^2.0.3"
   },
   "devDependencies": {

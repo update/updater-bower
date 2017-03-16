@@ -5,7 +5,7 @@ var path = require('path');
 var through = require('through2');
 var isValid = require('is-valid-app');
 var findPkg = require('find-pkg');
-var sync = require('sync-pkg');
+var sync = require('sync-bower');
 
 module.exports = function(app, base, env) {
   if (!isValid(app, 'updater-bower')) return;
@@ -35,4 +35,5 @@ module.exports = function(app, base, env) {
       }))
       .pipe(app.dest(cwd));
   });
+
 };
