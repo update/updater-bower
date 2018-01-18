@@ -22,9 +22,14 @@ module.exports = function(app, base, env) {
 
   app.task('default', ['bower']);
   app.task('bower', function() {
-    var pkgFile = findPkg.sync(app.cwd);
-    var pkg = JSON.parse(fs.readFileSync(pkgFile));
-    var cwd = path.dirname(pkgFile);
+    var pkgPath = findPkg.sync(app.cwd);
+
+    if (!fs.existsSync(pkgPath)) {
+      return Promise.resolve(null);
+    }
+
+    var pkg = JSON.parse(fs.readFileSync(pkgPath));
+    var cwd = path.dirname(pkgPath);
 
     return app.src('bower.json', {cwd: cwd})
       .pipe(through.obj(function(file, enc, next) {
