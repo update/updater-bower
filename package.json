@@ -15,23 +15,23 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4.7"
+    "node": ">=4"
   },
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "find-pkg": "^0.1.2",
-    "is-valid-app": "^0.2.1",
-    "sync-bower": "^1.0.0",
+    "find-pkg": "^1.0.0",
+    "is-valid-app": "^0.3.0",
+    "sync-bower": "^1.0.1",
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "copy": "^0.3.0",
-    "delete": "^0.3.2",
-    "gulp-format-md": "^0.1.11",
-    "mocha": "^3.2.0",
-    "npm-install-global": "^0.1.2",
+    "copy": "^0.3.1",
+    "delete": "^1.1.0",
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3",
+    "npm-install-global": "^1.0.0",
     "update": "^0.7.4"
   },
   "keywords": [
