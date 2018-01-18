@@ -1,7 +1,7 @@
 {
   "name": "updater-bower",
   "description": "Update bower.json with data from package.json.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/update/updater-bower",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "update/updater-bower",
